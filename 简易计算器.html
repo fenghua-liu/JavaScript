@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>简易计算器</title>
+		<link rel="stylesheet" type="text/css" href="计算器css.css"/>
+	</head>
+	<body>
+		<section>
+			<h1>这是一个简易计算器</h1>
+			<h3>请在下方输入你要运算的数字</h3>
+			<p>第一个数 <input type="text" name="txtnum1" id="txtnum1" value="" 
+				class="textBaroder"/></p>
+			
+			<p>第二个数 <input type="text" name="txtnum2" id="txtnum2" value="" 
+				class="textBaroder"/></p>
+			<p>
+				<input type="button" name="addButton" id="addButton" value="+" onclick="compute('+')"/>
+				<input type="button" name="subButton" id="subButton" value="-" onclick="compute('-')"/>
+				<input type="button" name="mulButton" id="mulButton" value="x" onclick="compute('*')"/>
+				<input type="button" name="divButton" id="divButton" value="÷" onclick="compute('/')"/>
+			</p>
+			
+			<p>计算结果 <input type="text" name="txtResult" id="txtResult"  class="textBaroder"
+				size="25"/></p>
+		</section>
+		<script type="text/javascript" src="计算器js.js">
+			
+		</script>
+	</body>
+</html>

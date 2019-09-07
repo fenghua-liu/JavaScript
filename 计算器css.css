@@ -1,0 +1,12 @@
+section{
+	background-color: #c9e495;
+	width: 260px;
+	height: 320px;
+	text-align: center;
+	padding-top: 1px;
+}
+/*细边框的文本输入框*/
+.textBaroder{
+	border-width: 1px;
+	border-style: solid;
+}
